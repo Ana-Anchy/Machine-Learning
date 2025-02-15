@@ -40,11 +40,10 @@ The dataset used includes various housing features such as **location, number of
   - Lasso Regression RMSE: **~71,944**
   - Final RMSE on Test Set: **~67,135**
 - **Conclusions:**
-  - **Slutsats:**
-    - Den **linjära regressionsmodellen** presterade bra, men **Lasso-regressionen** visade ett marginellt lägre RMSE på valideringsdata.
-    - Skillnaden mellan modellerna är dock mycket liten, vilket tyder på att **feature selection** inte var avgörande för detta PoC.
-    - Det slutgiltiga testet bekräftade modellens prestanda, men det finns fortfarande **utrymme för förbättringar**.
-    - Nästa steg kan vara att testa mer avancerade modeller (såsom **Random Forest** eller **XGBoost**) samt genomföra mer **feature engineering**.
+The linear regression model performed well, but Lasso regression showed a marginally lower RMSE on the validation data.
+However, the difference between the models is very small, suggesting that feature selection was not critical for this PoC.
+The final test confirmed the model's performance, but there is still room for improvement.
+The next step could be to try more advanced models (such as Random Forest or XGBoost) and to perform more feature engineering.
 
 
 
